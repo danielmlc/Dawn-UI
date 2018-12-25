@@ -1,0 +1,43 @@
+{
+  "name": "dawn-ui",
+  "version": "1.0.0",
+  "description": "UI component library for Vue2.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "dev": "node_modules/.bin/rollup -w -c ./build/rollup.config.dev.js",
+    "build": "node_modules/.bin/rollup -c ./build/rollup.config.prod.js"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "bulma",
+    "rollup",
+    "dawn-ui"
+  ],
+  "author": "danielmlc",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "node-sass": "^4.11.0",
+    "rollup": "^0.61.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-postcss": "^1.6.3",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-uglify": "^4.0.0",
+    "rollup-plugin-vue": "^4.3.2",
+    "vue-template-compiler": "^2.5.21",
+    "vuepress": "^0.14.8"
+  },
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue": "^2.5.21"
+  }
+}
