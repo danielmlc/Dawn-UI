@@ -23,7 +23,7 @@ const resolveFile = function(filePath) {
       // 使用开发服务插件
       serve({
           port: PORT,
-          contentBase: [resolveFile('docs'), resolveFile('dist')]
+          contentBase: []
         })
       ]
     ]

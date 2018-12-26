@@ -1,5 +1,5 @@
 <template>
-   <p class="d-button">我是按钮</p>
+   <a class="button is-primary">Primary</a>
 </template>
 
 <script type="text/babel">
@@ -9,6 +9,4 @@
 </script>
 
 <style lang="css" scoped>
-.d-button{
-    background-color:blueviolet;}
 </style>

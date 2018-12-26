@@ -1,7 +1,7 @@
 
-import components from './components'
+import components from './components';
 import dawnUi from '../../lib/index.js';
-
+import '../../lib/index.css';
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
 }) => {
