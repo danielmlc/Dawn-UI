@@ -3,7 +3,7 @@ module.exports = {
   description: '一个快速构建内容展示站点的UI库',
   port: 8066, 
   dest: '',
-  base:'',
+  base:'/Dawn-UI/',
   head: [
     ['link', { rel: 'icon', href: '/img/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -34,5 +34,10 @@ module.exports = {
     sidebarDepth :3,
     sidebar: 'auto',
     lastUpdated: 'Last Updated',
-   }
+   },
+   configureWebpack: (config, isServer) => {
+      if (!isServer) {
+        // 修改客户端的 webpack 配置
+      }
+    }
   }
